@@ -29,7 +29,7 @@ export default {
   methods: {
     async handleSubmit() {
       try {
-        const response = await axios.post('https://jokaga.dev/ketrzynski-kilometr/api/login.php', {
+        const response = await axios.post('https://jokaga.dev/ketrzynski-kilometr/api/api.php', {
             action: 'login',
             username: this.username,
             password: this.password
